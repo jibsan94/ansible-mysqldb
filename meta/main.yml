@@ -1,0 +1,29 @@
+---
+dependencies: []
+
+galaxy_info:
+  author: Jibsan Joel Rosa Toirac
+  description: MySQL server for RHEL/CentOS and Debian/Ubuntu.
+  company: No Company
+  license: "license (BSD, MIT)"
+  min_ansible_version: 2.4
+  platforms:
+    - name: EL
+      versions:
+        - 6
+        - 7
+    - name: Ubuntu
+      versions:
+        - all
+    - name: Debian
+      versions:
+        - all
+    - name: Archlinux
+      versions:
+        - all
+  galaxy_tags:
+    - database
+    - mysql
+    - mariadb
+    - db
+    - sql
